@@ -23,4 +23,4 @@ jobs:
     - name: Install npm dep
       run: npm install
     - name: Run tests
-      run: npm run test:ui
+      run: npm run test:unit
