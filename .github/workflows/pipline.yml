@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout hte repo
+    - name: Checkout the repo
       uses: actions/checkout@v4
     - name: Use Node.js 20.X
       uses: actions/setup-node@v3
